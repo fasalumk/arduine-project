@@ -26,7 +26,7 @@ void loop() {
         digitalWrite(ledPin, HIGH);  
         servo.attach(servoPin);      
         servo.write(0);              // Rotate servo to initial position
-        delay(5000);                 // Hold for 5 second
+        delay(3000);                 // Hold for 3 second
         servo.write(150);            // Rotate servo to open position
         delay(1000);                 // Hold for 1 second
         servo.detach();              /
